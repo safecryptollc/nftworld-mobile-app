@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "NFT WORLD",
+    "slug": "nftworldapp",
+    "scheme": "nftworldapp",
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#191e2b"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "nftworldapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/playstore.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.safecrypto.nftworld"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["sentry-expo"],
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "safecrypto",
+            "project": "safecryptoapp",
+            "authToken": "72a11b56cb1543d9a99ab006445c4b16a4437f92c2f44b4581d9aae1defc7060"
+          }
+        }
+      ]
+    }
+  }
+}
