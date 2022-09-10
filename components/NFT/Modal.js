@@ -298,7 +298,7 @@ const CustomModal = ({ nft, collection, modalOpen, setModalOpen }) => {
                                         <Text style={styles.name}>Not Listed For Sale</Text>
                                     </View >}
 
-
+                                    {/* 
                                     {nft.listed &&
                                         [
                                             <View key="nftpricekey">
@@ -315,7 +315,7 @@ const CustomModal = ({ nft, collection, modalOpen, setModalOpen }) => {
 
 
                                                 </View>
-                                                {/* <TouchableOpacity style={[styles.button, {
+                                                <TouchableOpacity style={[styles.button, {
                                                     flexDirection: 'column',
                                                     alignItems: 'center',
 
@@ -334,10 +334,10 @@ const CustomModal = ({ nft, collection, modalOpen, setModalOpen }) => {
                                                     </View>
 
 
-                                                </TouchableOpacity> */}
+                                                </TouchableOpacity>
                                             </View>
 
-                                        ]}
+                                        ]} */}
 
 
 

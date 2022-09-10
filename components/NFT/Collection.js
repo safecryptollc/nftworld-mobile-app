@@ -242,10 +242,10 @@ const Collection = ({ route, navigation }) => {
 
             <View style={{ flex: 1, flexDirection: 'row' }}>
                 <View style={{ flex: 1, padding: 5 }}>
-                    <Text style={styles.name}>{nft.name}  </Text>
+                    <Text style={styles.name}>{nft.name} </Text>
                     <Text style={styles.name}>#{nft.token_id} </Text>
                 </View>
-
+                {/* 
                 {nft.listed &&
                     <View style={{
                         flex: 1,
@@ -265,7 +265,7 @@ const Collection = ({ route, navigation }) => {
                         />
                         <Text style={styles.name}> {Moralis.Units.FromWei(nft.price)}</Text>
 
-                    </View>}
+                    </View>} */}
             </View>
 
 
@@ -438,7 +438,7 @@ const Collection = ({ route, navigation }) => {
                             onChange={e => setsearch(e.target.value)}
                         />
                     </View>
-                    <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
+                    {/* <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
 
                         {filter === 'pricehl' && <TouchableOpacity
                             onPress={() => {
@@ -463,7 +463,7 @@ const Collection = ({ route, navigation }) => {
 
 
 
-                    </View>
+                    </View> */}
 
                 </View>
 

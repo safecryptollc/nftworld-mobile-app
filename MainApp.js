@@ -138,7 +138,7 @@ function BottomNav() {
             />
 
 
-            <Tab.Screen
+            {/* <Tab.Screen
                 name="Profile"
                 options={{
                     tabBarLabel: <Text style={{
@@ -151,8 +151,8 @@ function BottomNav() {
                     ),
                 }}
                 component={Profile}
-            />
-            <Tab.Screen
+            /> */}
+            {/* <Tab.Screen
                 name="Transfer"
                 options={{
                     tabBarLabel: <Text style={{
@@ -165,8 +165,8 @@ function BottomNav() {
                     ),
                 }}
                 component={Transactions}
-            />
-            <Tab.Screen
+            /> */}
+            {/* <Tab.Screen
                 name="Wallett"
                 options={{
                     tabBarLabel: <Text style={{
@@ -179,7 +179,7 @@ function BottomNav() {
                     ),
                 }}
                 component={Wallet}
-            />
+            /> */}
         </Tab.Navigator >
     );
 }
