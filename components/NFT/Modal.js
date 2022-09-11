@@ -260,7 +260,7 @@ const CustomModal = ({ nft, collection, modalOpen, setModalOpen }) => {
                                 <NFTICon name='close' color={colors.text} size={20} />
 
                             </TouchableOpacity>
-                            <View style={{ height: 300 }}>
+                            <View style={{ height: height / 2 }}>
                                 <CustomFastImage
                                     source={{
                                         uri: nft?.image
